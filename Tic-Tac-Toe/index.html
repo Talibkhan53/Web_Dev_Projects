@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="NewGame">New Game</button>
+    </div>
+   
+    <main>
+    
+        <div>
+            <!-- <button id = "PvP">Player VS Player</button> -->
+            <form  id = "PvP" action="click">Player VS Player</form>
+            <form  id = "PvC" action="click">Player VS Computer</form>
+            <!-- <button id = "PvC">Player VS Computer</button> -->
+        </div>
+
+        <p id = "TurnIndicator"> Turn:0 </p>
+        
+        <h1>Welcome to Tic-Tac-Toe</h1>
+        
+        <div class="Container">
+        
+            <div class="Game">
+                <button class="box"></button>
+                <button class="box"> </button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+
+        <button id="Reset">ResetGame</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
